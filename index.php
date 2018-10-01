@@ -18,7 +18,7 @@
 		<nav class="navbar">
 			<img class="logo" src="resources/logo.jpg"></img>
 			<a class="active" href="index.php">Home</a>
-			<a href="event_list.php">Blog</a>
+			<a href="theblog.php">Blog</a>
 		</nav>
 		<!-- End of Navigation Menu -->
 		
