@@ -36,7 +36,11 @@
 	  </style>
 	</head>
 	<body>
-
+		<nav class="navbar">
+			<img class="logo" src="resources/logo.jpg"></img>
+			<a href="index.php">Home</a>
+			<a class="active" href="theblog.php">Blog</a>
+		</nav>
 		<div class="container-fluid">
 		  <div class="row content">
 			<div class="col-sm-3 sidenav">
