@@ -27,20 +27,6 @@
 				<!-- Main Content -->
 				<div class="main">
 						<h1>WELCOME TO TEAM FOURTRESS PRODUCTIONS <?php echo ucfirst($_SESSION['forename'])?> !</h1><br>
-						<?php if(isset($_SESSION['userID'])){
-						?>
-							<p>Aston Events is a hub to find out all about the latest events from Apple Picking to a good old Karaoke sing along!</p>
-							<p>Register now and get involved.</p>
-							<input onclick="location.href='signout.php';" type="button" class="button" value="Sign Out">
-						<?php } else {	
-						?>	
-							<p>Aston Events is a hub to find out all about the latest events from Apple Picking to a good old Karaoke sing along!
-							<p>Register now and get involved. Already a member? Then just hit the sign in and get started!</p>
-							<input onclick="location.href='register.php';" type="button" class="button" value="Register">
-							<input onclick="location.href='signin.php';" type="button" class="button" value="Sign In">
-						<?php
-						}
-						?>
 				</div>
 			</div>
 
